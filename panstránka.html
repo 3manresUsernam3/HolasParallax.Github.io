@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Coding.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="kontejner">
+        <h1>Máme to ale krásnou podívanou na umění 21. století.</h1>
+    </div >
+    <div class="vyklenek"></div>
+    <div class="kontejner">
+        <h1>Ale né, Jiřinka padá, Pomóóóóóc.</h1>
+    </div >
+    <div class="ruzek"></div>
+    <div class="kontejner">
+        <h1>Naštěstí jí náš spolehlivý automatický pracant zachytil a celý den tak zachránil, hurááá.</h1>
+    </div >
+    <div class="zarohem">
+        <img class="pracant" src="./Pictures/Autoamatický pracant.png" alt="">
+    </div>
+    <p></p>
+</body>
+<script type="text/javascript">
+        document.addEventListener("mousemove", function(e){
+            const pracant = document.querySelector('.pracant')
+
+             pracant.style.left = e.pageX-103 + 'px'
+        })
+</script>
+</html>

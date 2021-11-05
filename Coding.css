@@ -1,0 +1,41 @@
+body, html {
+  height: 100%;
+  background-color: gray;
+}
+.kontejner{
+  display: flex;
+  justify-content: center;
+}
+
+.vyklenek{
+  background-image: url("./Pictures/stena.png");
+  min-height: 1000px;
+  min-width: max-content; 
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.ruzek{
+  background-image: url("./Pictures/stena2.png");
+  min-height: 1000px;
+  min-width: max-content; 
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.zarohem{
+  background-image: url("./Pictures/stena.png");
+  min-height: 1000px;
+  min-width: max-content; 
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.pracant{
+  position: relative;
+  top: 500px;
+}
